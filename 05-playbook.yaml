@@ -10,4 +10,4 @@
    msg: "hello, i am learning devops"
  - name: print in variables:
    ansible.builtin.debug
-   msg: "hello, i am learning {{COURSE}}, tainer is {{TRAINER}}, duration is {{DURATION}}"   
+   msg: "hello, i am learning {{COURSE}}, tainer is {{TRAINER}}, duration is {{DURATION}}"
