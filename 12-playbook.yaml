@@ -5,9 +5,9 @@
   - NAME: "sunny"
   - isDevOps: true
   - Skills:
-   - DevOps
-   - AWS
-   Docker
+    - DevOps
+    - AWS
+    - Docker
   - EXPERIENCE:
    - DevOps: 7
    - AWS: 5
@@ -27,4 +27,4 @@
      msg: "{{Skills}}"
   - name: print map varible
     ansible.builtin.debug:
-     msg: "{{EXPERIENCE}}"            
+     msg: "{{EXPERIENCE}}"
