@@ -1,0 +1,8 @@
+- name: simple condition
+  hosts: localhost
+  vars:
+   NAME: DevOps
+  tasks:
+  - name: run this if name is DevOps
+     msg: "HELLO....{{NAME}}"
+    when: NAME == "DevOps"
