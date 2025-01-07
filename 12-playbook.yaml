@@ -9,10 +9,10 @@
     - AWS
     - Docker
   - EXPERIENCE:
-   - DevOps: 7
-   - AWS: 5
-   - Docker: 4
-  - tasks:
+     DevOps: 7
+     AWS: 5
+     Docker: 4
+  tasks:
   - name: print number varible
     ansible.builtin.debug:
      msg: "{{AGE}}"
