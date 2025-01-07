@@ -7,4 +7,11 @@
     ignore_errors: true
   - name: print the command output
     ansible.builtin.debug:
-     msg: "output is: {{output}}"
+     msg: "output is: {{output}}" 
+  - name: print exit status
+    ansible.builtin.debug:
+     msg: "{{output}}"
+  - name: create user roboshop
+    become: yes
+     name: roboshop
+   when: output.rc!=0
