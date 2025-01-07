@@ -3,7 +3,7 @@
   tasks: 
   - name: check roboshop user exist or not
     ansible.builtin.command: id roboshop
-    register:output
+    register: output
   - name: print the command output
     ansible.builtin.debug:
      msg: "output is: {{output}}"
