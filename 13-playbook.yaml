@@ -10,7 +10,7 @@
      msg: "output is: {{output}}" 
   - name: print exit status
     ansible.builtin.debug:
-     msg: "{{output}}"
+     msg: "{{output.rc}}"
   - name: create user roboshop
     become: yes
     ansible.builtin.user:
