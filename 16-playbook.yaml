@@ -8,4 +8,5 @@
       state: installed
     loop:
     - nginx
-    - postfix  
+    - postfix
+    - maven  
